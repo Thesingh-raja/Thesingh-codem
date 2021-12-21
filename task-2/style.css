@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+}
+
+/* *********************************************************** */
+/*  ENTIRE BACKGROUND IMAGE */
+/* *********************************************************** */
+
+.whole-section {
+  background-color: #1aa0ac;
+  background-image: url(/images/bg-pattern-top.svg),
+    url(images/bg-pattern-bottom.svg);
+  background-position: right 45vw bottom 45vh, 45vw 45vh;
+  /* background-position: right 45vw bottom 45vh; */
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+/* *********************************************************** */
+/* CARD STARTS */
+/* *********************************************************** */
+
+.container {
+  background-color: #faf9f9;
+  border-radius: 10px;
+  width: 320px;
+  height: 350px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  margin: 0;
+}
+
+/* *********************************************************** */
+/* PATTERN CARD */
+/* *********************************************************** */
+
+#background {
+  height: 140px;
+  width: 320px;
+  border-radius: 10px 10px 0px 0px;
+  background-image: url("images/bg-pattern-card.svg");
+}
+
+/* *********************************************************** */
+/* NAME AND CITY */
+/* *********************************************************** */
+
+#name-and-city {
+  height: 100px;
+  position: relative;
+  top: 65%;
+}
+
+/* *********************************************************** */
+/* CARD FOOTER */
+/* *********************************************************** */
+
+#card-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  top: 60%;
+}
+
+/* *********************************************************** */
+/* GENERAL  */
+/* *********************************************************** */
+.number {
+  font-weight: 600;
+}
+
+.value {
+  font-weight: 200;
+  font-size: 8.5px;
+  letter-spacing: 2px;
+  position: relative;
+  top: -5px;
+}
+
+.victor {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.city {
+  font-size: 13px;
+  top: 3px;
+  margin-bottom: 20px;
+}
+
+.image {
+  position: relative;
+  top: 64%;
+  border-radius: 50%;
+  border: solid 3px white;
+}
