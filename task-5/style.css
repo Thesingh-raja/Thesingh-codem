@@ -1,0 +1,133 @@
+/* **************************************** */
+/*ENTIRE COMPONENT*/
+/* **************************************** */
+.task-5 {
+  background: hsl(210, 46%, 95%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+/* **************************************** */
+/*CARD*/
+/* **************************************** */
+.card {
+  background: white;
+  display: grid;
+  grid-template-columns: 40% 1fr;
+  grid-gap: 20px;
+  width: 680px;
+  border-radius: 10px;
+  box-shadow: 10px;
+}
+/* **************************************** */
+/*DRAWER IMAGE*/
+/* **************************************** */
+.left-side {
+  background-image: url(/images/drawers.jpg);
+  background-size: cover;
+  height: 100%;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+/* **************************************** */
+/*CONTENT*/
+/* **************************************** */
+.right-side {
+  font-size: 13px;
+  padding: 20px;
+
+  font-family: "Manrope", sans-serif;
+  color: hsl(214, 17%, 51%);
+  font-weight: 500;
+}
+
+.heading {
+  color: hsl(217, 19%, 35%);
+  font-weight: 700;
+  line-height: 27px;
+}
+
+.parag {
+  line-height: 20px;
+  padding-bottom: 10px;
+}
+/* **************************************** */
+/*BOTTOM BOX ENTIRE*/
+/* **************************************** */
+.bottom {
+  display: grid;
+  grid-template-columns: 50px 1fr 43px;
+  grid-gap: 10px;
+  height: 43px;
+}
+/* **************************************** */
+/*ELEMENTS IN BOTTOM BOX GRID*/
+/* **************************************** */
+.name {
+  color: hsl(217, 19%, 35%);
+  font-weight: 700;
+  margin: 0px;
+  padding-top: 0px;
+}
+
+.date {
+  margin: 0px;
+  margin-top: 4px;
+}
+
+.profile img {
+  border-radius: 100%;
+  width: 40px;
+}
+.icon-box {
+  background-image: url(/images/icon-share.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 40px;
+  height: 40px;
+  background-color: hsl(210, 46%, 95%);
+  border-radius: 100%;
+  cursor: pointer;
+}
+.tool-tip {
+  position: relative;
+}
+.popup {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.tool-tip .tool-tip-text {
+  visibility: hidden;
+  background-color: hsl(217, 19%, 35%);
+  position: absolute;
+  z-index: 1;
+  border-radius: 6px;
+  width: 257px;
+  bottom: 130%;
+  left: -115%;
+  margin-left: -60px;
+}
+.tool-tip:hover .tool-tip-text {
+  visibility: visible;
+}
+.tool-tip:hover {
+  background-color: hsl(217, 19%, 35%);
+}
+
+.popup p {
+  margin-left: 20px;
+  color: #fff;
+  letter-spacing: 4px;
+}
+.popup img {
+  padding-top: 10px;
+  height: 25px;
+  width: 25px;
+}
+.popup .pin {
+  margin-right: 20px;
+}

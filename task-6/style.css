@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* ************************************************* */
+/* TASK STARTS */
+/* ************************************************* */
+.task-6 {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  background-image: url(/images/bg-intro-desktop.png);
+  background-color: hsl(0, 100%, 74%);
+  height: 100vh;
+}
+/* ************************************************* */
+/* CARD STARTS */
+/* ************************************************* */
+.entire {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+/* ************************************************* */
+/* LEFT SIDE */
+/* ************************************************* */
+.left-side {
+  color: #fff;
+  width: 50%;
+  margin-right: 32px;
+}
+h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.1;
+  margin-bottom: 32px;
+}
+.left-side p {
+  letter-spacing: -1px;
+}
+/* ************************************************* */
+/* RIGHT SIDE */
+/* ************************************************* */
+.right-side {
+  width: 50%;
+}
+.offer {
+  background-color: hsl(248, 32%, 49%);
+  color: #fff;
+  border-radius: 10px;
+  height: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 0px 8px 0px 0px hsl(0, 64%, 65%);
+}
+.offer span {
+  font-weight: 400;
+}
+strong {
+  font-weight: 600;
+}
+/* ************************************************* */
+/* FORM STARTS */
+/* ************************************************* */
+input {
+  width: 100%;
+  padding: 16px;
+  border: 1px solid hsl(246, 25%, 77%);
+  border-radius: 5px;
+}
+form {
+  background-color: #fff;
+  padding: 32px;
+  border-radius: 10px;
+  box-shadow: 0px 8px 0px 0px hsl(0, 64%, 65%);
+}
+form div {
+  margin-bottom: 16px;
+  position: relative;
+}
+button {
+  width: 100%;
+  background-color: hsl(154, 59%, 51%);
+  color: #fff;
+  text-align: center;
+  border: none;
+  padding: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.terms-and-services {
+  font-size: 10px;
+  color: hsl(246, 25%, 77%);
+  text-align: center;
+  font-weight: 500;
+  margin-top: 12.8px;
+}
+.terms-and-services span {
+  color: hsl(0, 100%, 74%);
+  font-weight: 600;
+}
